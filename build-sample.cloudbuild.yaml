@@ -6,4 +6,4 @@ steps:
       gcloud builds submit 
       
 options:
-  logging: CLOUD_LOGGING_ONLY / NONE
+  logging: CLOUD_LOGGING_ONLY
