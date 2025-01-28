@@ -15,18 +15,9 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: golang
-<<<<<<< HEAD
     script: go run quickstart-automate/main.go
 # [END cloudbuild_quickstart_automate]
 
 options:
     logging: CLOUD_LOGGING_ONLY
     defaultLogBucketBehavior: REGIONAL_USER_OWNED_BUCKET
-=======
-    args: ['go', 'run', 'quickstart-automate/main.go']
-# [END cloudbuild_quickstart_automate]
-
-options:
-  logging: CLOUD_LOGGING_ONLY
-  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
->>>>>>> 836e0f27f4ba086fcab7740aaf581cca9e10a357
